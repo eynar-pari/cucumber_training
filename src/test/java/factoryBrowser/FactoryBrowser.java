@@ -1,5 +1,7 @@
 package factoryBrowser;
 
+import io.cucumber.java.eo.Do;
+
 public class FactoryBrowser {
 
     public static IBrowser make(String browserType){
@@ -17,6 +19,9 @@ public class FactoryBrowser {
             case "cloud":
                browser = new ChromeCloud();
                break;
+            case "docker":
+                browser = new Docker();
+                break;
             default:
                 browser= new Chrome();
                 break;

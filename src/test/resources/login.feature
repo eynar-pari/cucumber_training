@@ -5,5 +5,5 @@ Feature:  Login
     Given open the todo.ly
     When I set my credentials
        |user |test78@test78.com|
-       |pwd  |12345ssssss |
+       |pwd  |12345 |
     Then i should be logged in the page

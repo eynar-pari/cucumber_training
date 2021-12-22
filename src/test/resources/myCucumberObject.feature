@@ -1,7 +1,7 @@
 Feature: login
 
 
-  @SmokeTest @Regression
+  @SmokeTest @Regression @Object
   Scenario: register
 
     Given i have access to Facebook
